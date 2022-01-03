@@ -1,0 +1,60 @@
+|top_stimulus
+clk => clk.IN2
+d2 => d2.IN1
+d3 => d3.IN1
+d4 => d4.IN1
+u1 => u1.IN1
+u2 => u2.IN1
+u3 => u3.IN1
+out[0] << LiftFSM:uut_LiftFSM.out
+out[1] << LiftFSM:uut_LiftFSM.out
+
+
+|top_stimulus|LiftFSM:uut_LiftFSM
+clk => ps~1.DATAIN
+button_in[0] => Decoder0.IN5
+button_in[1] => Decoder0.IN4
+button_in[2] => Decoder0.IN3
+button_in[3] => Decoder0.IN2
+button_in[4] => Decoder0.IN1
+button_in[5] => Decoder0.IN0
+qEmpty => always0.IN1
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+done <= done$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_stimulus|InputBuffer:uut_InputBuffer
+clk => button_out[0]~reg0.CLK
+clk => button_out[1]~reg0.CLK
+clk => button_out[2]~reg0.CLK
+clk => button_out[3]~reg0.CLK
+clk => button_out[4]~reg0.CLK
+clk => button_out[5]~reg0.CLK
+clk => inputbuffer[0].CLK
+clk => inputbuffer[1].CLK
+clk => inputbuffer[2].CLK
+clk => inputbuffer[3].CLK
+clk => inputbuffer[4].CLK
+clk => inputbuffer[5].CLK
+u1 => inputbuffer.OUTPUTSELECT
+u2 => inputbuffer.OUTPUTSELECT
+u3 => inputbuffer.OUTPUTSELECT
+d2 => inputbuffer.OUTPUTSELECT
+d3 => inputbuffer.OUTPUTSELECT
+d4 => inputbuffer.OUTPUTSELECT
+done => button_out[0]~reg0.ENA
+done => button_out[1]~reg0.ENA
+done => button_out[2]~reg0.ENA
+done => button_out[3]~reg0.ENA
+done => button_out[4]~reg0.ENA
+done => button_out[5]~reg0.ENA
+button_out[0] <= button_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+button_out[1] <= button_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+button_out[2] <= button_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+button_out[3] <= button_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+button_out[4] <= button_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+button_out[5] <= button_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qEmpty <= qEmpty.DB_MAX_OUTPUT_PORT_TYPE
+
+
