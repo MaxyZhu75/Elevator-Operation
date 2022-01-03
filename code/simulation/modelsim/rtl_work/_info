@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MaoqinZhu_project1/simulation/modelsim
+vInputBuffer
+Z1 !s110 1603544187
+!i10b 1
+!s100 578@NHehn4jRITFjHlM;^1
+I^ZjJFSDDCU47ce=4M_cZd2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1603521569
+8D:/MaoqinZhu_project1/InputBuffer.v
+FD:/MaoqinZhu_project1/InputBuffer.v
+L0 1
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1603544187.000000
+!s107 D:/MaoqinZhu_project1/InputBuffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MaoqinZhu_project1|D:/MaoqinZhu_project1/InputBuffer.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/MaoqinZhu_project1
+n@input@buffer
+vLiftFSM
+R1
+!i10b 1
+!s100 QG:T7A:=g2AbS2>kAz9n=2
+IaAA;@YB8Q2U]Hea=zQi=83
+R2
+R0
+w1603522195
+8D:/MaoqinZhu_project1/LiftFSM.v
+FD:/MaoqinZhu_project1/LiftFSM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MaoqinZhu_project1/LiftFSM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MaoqinZhu_project1|D:/MaoqinZhu_project1/LiftFSM.v|
+!i113 1
+R5
+R6
+n@lift@f@s@m
+vStimulus
+Z7 !s110 1603544188
+!i10b 1
+!s100 dH?7F6<8Inc1UIMCNmRBD3
+Ib<fG2M3Tl?HSDClQ[Z[A:2
+R2
+R0
+w1603543338
+8D:/MaoqinZhu_project1/Stimulus.v
+FD:/MaoqinZhu_project1/Stimulus.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z8 !s108 1603544188.000000
+!s107 D:/MaoqinZhu_project1/Stimulus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MaoqinZhu_project1|D:/MaoqinZhu_project1/Stimulus.v|
+!i113 1
+R5
+R6
+n@stimulus
+vtop_stimulus
+R7
+!i10b 1
+!s100 ?PBCA5RR]z?:[J4C;n9fX2
+IC3:7djLi8J]9F]Mdb:TkL1
+R2
+R0
+w1603523242
+8D:/MaoqinZhu_project1/top_stimulus.v
+FD:/MaoqinZhu_project1/top_stimulus.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/MaoqinZhu_project1/top_stimulus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MaoqinZhu_project1|D:/MaoqinZhu_project1/top_stimulus.v|
+!i113 1
+R5
+R6

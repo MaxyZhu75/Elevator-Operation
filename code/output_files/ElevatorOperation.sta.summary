@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -6.809
+TNS   : -105.521
+
+Type  : Slow 1100mV 85C Model Setup 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : -5.412
+TNS   : -5.412
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 3.542
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -11.660
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -6.485
+TNS   : -101.501
+
+Type  : Slow 1100mV 0C Model Setup 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : -5.503
+TNS   : -5.503
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 3.577
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -12.532
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -4.205
+TNS   : -61.917
+
+Type  : Fast 1100mV 85C Model Setup 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : -2.727
+TNS   : -2.727
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 2.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.083
+TNS   : -1.772
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -3.570
+TNS   : -51.865
+
+Type  : Fast 1100mV 0C Model Setup 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : -2.611
+TNS   : -2.611
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 2.151
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.082
+TNS   : -1.777
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'InputBuffer:uut_InputBuffer|inputbuffer[0]'
+Slack : 0.445
+TNS   : 0.000
+
+------------------------------------------------------------

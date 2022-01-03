@@ -1,0 +1,72 @@
+# Reading D:/QuartusPrimeLite/Modelsim_setup/modelsim_ase/tcl/vsim/pref.tcl
+# do ElevatorOperation_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying D:/QuartusPrimeLite/Modelsim_setup/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/MaoqinZhu_project1 {D:/MaoqinZhu_project1/InputBuffer.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:56:27 on Oct 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MaoqinZhu_project1" D:/MaoqinZhu_project1/InputBuffer.v 
+# -- Compiling module InputBuffer
+# 
+# Top level modules:
+# 	InputBuffer
+# End time: 20:56:27 on Oct 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/MaoqinZhu_project1 {D:/MaoqinZhu_project1/LiftFSM.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:56:27 on Oct 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MaoqinZhu_project1" D:/MaoqinZhu_project1/LiftFSM.v 
+# -- Compiling module LiftFSM
+# 
+# Top level modules:
+# 	LiftFSM
+# End time: 20:56:27 on Oct 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/MaoqinZhu_project1 {D:/MaoqinZhu_project1/top_stimulus.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:56:28 on Oct 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MaoqinZhu_project1" D:/MaoqinZhu_project1/top_stimulus.v 
+# -- Compiling module top_stimulus
+# 
+# Top level modules:
+# 	top_stimulus
+# End time: 20:56:28 on Oct 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/MaoqinZhu_project1 {D:/MaoqinZhu_project1/Stimulus.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:56:28 on Oct 24,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MaoqinZhu_project1" D:/MaoqinZhu_project1/Stimulus.v 
+# -- Compiling module Stimulus
+# 
+# Top level modules:
+# 	Stimulus
+# End time: 20:56:28 on Oct 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Stimulus
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Stimulus 
+# Start time: 20:56:28 on Oct 24,2020
+# Loading work.Stimulus
+# Loading work.LiftFSM
+# Loading work.InputBuffer
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Stimulus has already finished.
+# Break key hit
+# Simulation stop requested.
+# End time: 21:05:57 on Oct 24,2020, Elapsed time: 0:09:29
+# Errors: 0, Warnings: 0
